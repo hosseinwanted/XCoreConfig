@@ -1,9 +1,8 @@
-name: Setup Project Structure
+   name: Setup Project Structure
    on:
-     workflow_dispatch: # امکان اجرای دستی
-     push: # اجرا هنگام push به مخزن
+     workflow_dispatch:
+     push:
        branches: [ main ]
-
    jobs:
      setup:
        runs-on: ubuntu-latest
